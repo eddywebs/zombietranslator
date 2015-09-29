@@ -1,4 +1,7 @@
+define(['jquery'], function($){
+
 $(document).ready(function(){
+  console.log('yay am working');
   $('#zombie-to-english-btn').click(function(event){
     unzombify();
     return false;
@@ -30,3 +33,6 @@ $(document).ready(function(){
   $('#english').on("keyup", zombify);
 
 });
+
+
+});//end of define
